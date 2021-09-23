@@ -19,8 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print('こんにちは！');
-print("こんばんは！");
+
 print("I'm studying \"PHP\"");
 ?>
 </pre>
