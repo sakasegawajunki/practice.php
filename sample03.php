@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print(date("G時i分s秒"));
+print(date("現在の時刻はG時i分s秒です"));
 ?>
 </pre>
 </main>
