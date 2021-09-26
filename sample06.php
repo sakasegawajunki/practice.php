@@ -18,10 +18,16 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php $sum = 100+1050+200+500; ?>
-<?php $tax = 1.08; ?>
-<?php 合計価格は： print($sum); ?>円です
-<?php 税込価格は： print($sum*$tax); ?>円です
+<?php 
+//$i = 1;
+//while ($i <= 365) {
+//  print($i . "\n");
+//  $i++;
+//}
+for ($i=1; $i<=365; $i++) {
+  print($i ."\n");
+}
+?>
 </pre>
 </main>
 </body>    
