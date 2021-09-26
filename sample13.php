@@ -19,8 +19,12 @@
 <h2>Practice</h2>
 <pre>
 <?php
-$date = sprintf("%04d年 % 2d月 % 2d日", 2018, 12, 5);
-print($date);
+$success = file_put_contents("../../news_data/news.txt", "2018-06-01 ホームページをリニューアルしました");
+if ($success) {
+  print ("ファイルへの書き込みが成功しました");
+} else {
+  print ("書き込みに失敗しました。フォルダの権限などを確認してください");
+}
 ?>
 </pre>
 </main>
